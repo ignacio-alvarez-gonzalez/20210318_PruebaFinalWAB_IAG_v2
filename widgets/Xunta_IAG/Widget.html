@@ -1,0 +1,40 @@
+<div>
+  
+  <h3>BUSCADOR DE PARROQUIAS<br>(XUNTA DE GALICIA)</h3>
+  <p>Seleccione mediante los siguientes buscadores un concello o parroquia, dentro de una determianda provincia, y pulse en buscar para mostrarlo en el mapa.</p>
+  
+  <br>
+
+  <div id="buscadores">
+
+  <p>BUSCADOR:</p>
+  <br>
+
+  <label for="provincias">Provincia</label>
+  <select name="provincias" id="provincias" data-dojo-attach-event="onchange: cargaConcellos" data-dojo-attach-point="selectorProvincias">
+    <option value="-1">Seleccione una provincia:</option>
+    <option value="15">A Coruña</option>
+    <option value="27">Lugo</option>
+    <option value="32">Ourense</option>
+    <option value="36">Pontevedra</option>
+  </select>
+
+  <br>
+
+  <label for="concellos">Concello</label>
+  <select name="concellos" id="concellos" data-dojo-attach-event="onchange: cargaParroquias" data-dojo-attach-point="selectorConcellos"></select>
+  <button data-dojo-attach-event="onclick:zoomConcello">BUSCAR: 👀</button>
+
+  <br>
+
+  <label for="parroquias">Parroquia</label>
+  <select name="parroquias" id="parroquias" data-dojo-attach-point="selectorParroquias"></select>
+  <button data-dojo-attach-event="onclick:zoomParroquia">BUSCAR: 👀</button>
+
+  <br>
+
+  <button data-dojo-attach-event="onclick:borrarSeleccion">BORRAR SELECCIÓN</button>
+
+  </div>
+
+</div>

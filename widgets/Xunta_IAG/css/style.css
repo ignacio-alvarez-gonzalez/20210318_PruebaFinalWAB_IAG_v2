@@ -1,0 +1,40 @@
+#dijit__WidgetBase_7 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgba(12, 183, 242, 0.25);
+}
+
+.xunta-i-a-g p {
+  text-align: justify;
+}
+
+.xunta-i-a-g h3 {
+  font-size: 1.2em;
+}
+.xunta-i-a-g h3, p {
+  margin-top: 0;
+}
+
+.xunta-i-a-g #buscadores {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  font-size: 14px;
+  color: white;
+  background-color: black;
+  border-style: solid;
+  border-color: rgb(12, 183, 242);
+  border-width: 5px;
+}
+
+.xunta-i-a-g button {
+  margin-top: 5px;
+}
+
+.xunta-i-a-g button {
+  margin-top: 5px;
+  background-color: rgba(12, 183, 242, 0.5);
+  color: white;
+}
+
+
+/* add additional custom styles */
